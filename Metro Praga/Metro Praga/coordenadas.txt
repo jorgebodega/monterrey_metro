@@ -1,0 +1,65 @@
+		//Estaciones
+		Nodo Dejvicka, Hradcanska, Malostranska, Staromestska, Mustek_A, Muzeum_A, Namesti_Miru, Jiriho_z_Podebrad, 
+		Flora, zelivskeho,Strasnicka, Skalka, Depo_Hostivar, Zlicin, Stodulky, Luka, Luziny, Hurka, Nove_Butovice, 
+		Jinonice, Radlicka, Smichovske_nadrazi, Andel, Karlovo_namesti, Narodni_trida_Mustek_B, Namesti_Republiky, 
+		Florenc_B, Krizikova, Invalidovna, Palmovka, ceskomoravska, Vysocanska, Kolbenova, Hloubetin, Rajska_zahrada, 
+		Cerny_most, Letnany, Prosek, Strizkov, Ladvi, Kobylisy, Nadrazi_Holesovice, Vltavska, Florenc_C, Hlavni_nadrazi,
+		Muzeum_C, I_P_Pavlova, Vysehrad, Prazskeho_povstani, Pankrac, Budejovicka, Kacerov, Roztyly, Chodov, Opatov, Haje;
+
+
+		Dejvicka = grafo.addNode("Dejvicka", 0,0);
+		Hradcanska = grafo.addNode("Hradcanska", 1,-1);
+		Malostranska = grafo.addNode("Malostranska", 1,-2);
+		Staromestska = grafo.addNode("Staromestska", 2,-3);
+		Mustek_A = grafo.addNode("Mustek_A", 3,-4);
+		Muzeum_A = grafo.addNode("Muzeum_A", 4,-5);
+		Namesti_Miru = grafo.addNode("Namesti Miru", 5,-5);
+		Jiriho_z_Podebrad = grafo.addNode("Jiriho z Podebrad", 6,-5);
+		Flora = grafo.addNode("Flora", 7,-8);
+		zelivskeho = grafo.addNode("zelivskeho", 8,-5);
+		Strasnicka = grafo.addNode("Strasnicka", 10,-6);
+		Skalka = grafo.addNode("Skalka", 11,-7);
+		Depo_Hostivar = grafo.addNode("Depo Hostivar", 12,-5);
+		Zlicin = grafo.addNode("Zlicin", -10,-10);
+		Stodulky = grafo.addNode("Stodulky", -9,-11);
+		Luka = grafo.addNode("Luka", -7,-11);
+		Luziny = grafo.addNode("Luziny", -6,-12);
+		Hurka = grafo.addNode("Hurka", -5,-10);
+		Nove_Butovice = grafo.addNode("Nove Butovice", -4,-10);
+		Jinonice = grafo.addNode("Jinonice", -3,-10);
+		Radlicka = grafo.addNode("Radlicka", -1,-9);
+		Smichovske_nadrazi = grafo.addNode("Smichovske nadrazi", 1,-8);
+		Andel = grafo.addNode("Andel", 1,-7);
+		Karlovo_namesti = grafo.addNode("Karlovo namesti", 2,-6);
+		Narodni_trida_Mustek_B = grafo.addNode("Narodni trida-Mustek_B", 3,-4);
+		Namesti_Republiky = grafo.addNode("Namesti Republiky", 4,-3);
+		Florenc_B = grafo.addNode("Florenc_B", 4,-2);
+		Krizikova = grafo.addNode("Krizikova", 6,-2);
+		Invalidovna = grafo.addNode("Invalidovna", 7,-1);
+		Palmovka = grafo.addNode("Palmovka", 8,0);
+		ceskomoravska = grafo.addNode("ceskomoravska", 10,1);
+		Vysocanska = grafo.addNode("Vysocanska", 11,2);
+		Kolbenova = grafo.addNode("Kolbenova", 12,2);
+		Hloubetin = grafo.addNode("Hloubetin", 14,1);
+		Rajska_zahrada = grafo.addNode("Rajska zahrada", 17,1);
+		Cerny_most = grafo.addNode("cerný most", 18,1);
+		Letnany = grafo.addNode("Letnany", 12,5);
+		Prosek = grafo.addNode("Prosek", 10,3);
+		Strizkov = grafo.addNode("Strizkov", 9,5);
+		Ladvi = grafo.addNode("Ladvi", 7,5);
+		Kobylisy = grafo.addNode("Kobylisy", 6,4);
+		Nadrazi_Holesovice = grafo.addNode("Nadrazi Holesovice", 5,1);
+		Vltavska = grafo.addNode("Vltavska", 5,0);
+		Florenc_C = grafo.addNode("Florenc_C", 4,-2);
+		Hlavni_nadrazi = grafo.addNode("Hlavni nadrazi", 4,-4);
+		Muzeum_C = grafo.addNode("Muzeum_C", 4,-5);
+		I_P_Pavlova = grafo.addNode("I.P.Pavlova", 4,-6);
+		Vysehrad = grafo.addNode("Vysehrad", 4,-8);
+		Prazskeho_povstani = grafo.addNode("Prazskeho povstani", 4,-9);
+		Pankrac = grafo.addNode("Pankrac", 4,-10);
+		Budejovicka = grafo.addNode("Budejovicka", 5,-12);
+		Kacerov = grafo.addNode("Kacerov", 6,-12);
+		Roztyly = grafo.addNode("Roztyly", 8,-13);
+		Chodov = grafo.addNode("Chodov", 10,-14);
+		Opatov = grafo.addNode("Opatov", 11,-15);
+		Haje = grafo.addNode("Haje", 13,-14);

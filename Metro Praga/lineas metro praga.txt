@@ -1,0 +1,76 @@
+Línea A
+
+La Línea A (de color verde) conecta al centro con el noroeste y el este de la ciudad. 
+Su trazado es más de 11 kilómetros de largo y posee 13 estaciones. 
+El tiempo de traslado de terminal a terminal es de 23 minutos aproximadamente.
+
+Dejvická
+Hradčanská
+Malostranská
+Staroměstská
+Můstek (transbordo con la línea B)
+Muzeum (transbordo con la línea C)
+Náměstí Míru
+Jiřího z Poděbrad
+Flora
+Želivského
+Strašnická
+Skalka
+Depo Hostivař
+
+Línea B
+
+La Línea B (de color amarillo) es la más larga y la única completamente terminada. 
+Su trazado va desde el suroeste hacia el centro y continúa hacia el noreste de la ciudad.
+Mide 25.6 kilómetros de largo y posee 24 estaciones. El tiempo estimado de viaje de terminal a terminal es de 41 minutos.
+
+Zličín
+Stodůlky
+Luka
+Lužiny
+Hůrka
+Nové Butovice
+Jinonice
+Radlická
+Smíchovské nádraží
+Anděl
+Karlovo náměstí
+Národní třída -  Můstek (transbordo con la línea A)
+Náměstí Republiky
+Florenc (transbordo con la línea C)
+Křižíkova
+Invalidovna
+Palmovka
+Českomoravská
+Vysočanská
+Kolbenova
+Hloubětín
+Rajská zahrada
+Černý most
+
+Línea C
+
+La Línea C (de color rojo) es la más antigua; 
+su trazado va desde el noreste al sureste, con 22,41 kilómetros y 20 estaciones. 
+El tiempo estimado de viaje de terminal a terminal es de 35 minutos.
+
+Letnany
+Prosek
+Střížkov
+Ládví
+Kobylisy
+Nádraží Holešovice
+Vltavská
+Florenc (transbordo con la línea B)
+Hlavní nádraží
+Muzeum (transbordo con la línea A)
+I.P.Pavlova
+Vyšehrad
+Pražského povstání
+Pankrác
+Budějovická
+Kačerov
+Roztyly
+Chodov
+Opatov
+Háje
