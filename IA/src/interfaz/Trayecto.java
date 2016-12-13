@@ -122,7 +122,7 @@ public class Trayecto {
 			if(i == size-1){
 				nombre = recorrido.get(i).getNombre();
 				linea = recorrido.get(i).getLinea();
-				ruta = ruta + "Usted estÂ· en ";
+				ruta = ruta + "Usted está en ";
 				ruta = ruta + nombre + "\n";
 				ruta = ruta + "Tome la linea " + linea + " hasta la estacion ";	
 			}
@@ -146,23 +146,12 @@ public class Trayecto {
 	
 	public void inicialize(){
 
-		frameTrayecto.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		frameTrayecto.setBounds(100, 100, 685, 514);
-		frameTrayecto.addWindowListener(new WindowAdapter() {
-			@Override
-			public void windowClosing(WindowEvent arg0) {
-				frameTrayecto.setVisible(false);
-				inicio.frameSeleccion.setVisible(true);
-			}
-		});
-
-		contentPaneRuta = new JPanel();
-		contentPaneRuta.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPaneRuta.setLayout(null);
-
-		frameTrayecto.setContentPane(contentPaneRuta);
-
-		JButton btnAtrasRuta = new JButton("Atr\u00E1s");
+		
+		
+		
+		/*JButton btnAtrasRuta = new JButton("Atrás");
 		btnAtrasRuta.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -170,8 +159,16 @@ public class Trayecto {
 				inicio.frameSeleccion.setVisible(true);
 			}
 		});
-		btnAtrasRuta.setBounds(47, 395, 103, 43);
-		contentPaneRuta.add(btnAtrasRuta);
+		btnAtrasRuta.setBounds(100, 100, 103, 43);
+		contentPaneRuta.add(btnAtrasRuta);*/
+
+		contentPaneRuta = new JPanel();
+		contentPaneRuta.setBorder(new EmptyBorder(0, 0, 103, 43));
+		contentPaneRuta.setLayout(null);
+
+		frameTrayecto.setContentPane(contentPaneRuta);
+
+		
 
 		btnVerMapaRuta = new JButton("Ver Mapa");
 		btnVerMapaRuta.addMouseListener(new MouseAdapter() {

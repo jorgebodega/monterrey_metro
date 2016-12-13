@@ -34,7 +34,7 @@ public class Plano {
 	}
 	
 	public void inicialize(){
-		framePlano.setBounds(800, 100, 798, 556);						// ventana del mapa
+		framePlano.setBounds(400, 100, 800, 600);						// ventana del mapa
 		
 		contentPaneMapa = new JPanel();
 		contentPaneMapa.setBorder(new EmptyBorder(5, 5, 5, 5));			// bordes del mapa
@@ -44,13 +44,12 @@ public class Plano {
 		framePlano.addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowClosing(WindowEvent arg0) {
-				System.out.println("Hola2");
 				framePlano.setVisible(false);
 				inicio.frameSeleccion.setVisible(true);
 			}
 		});
 		
-		btnAtrasMapa = new JButton(new ImageIcon("/resources/descarga.jpg"));
+		btnAtrasMapa = new JButton("Atrás");
 		//btnAtrasMapa.setBackground(Color.green);
 		btnAtrasMapa.setBounds(598, 35, 100, 39);						// boton de atras
 		contentPaneMapa.add(btnAtrasMapa);

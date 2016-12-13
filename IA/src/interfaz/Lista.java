@@ -33,7 +33,7 @@ public class Lista {
 	}
 	
 	public void inicialize(){
-		frameLinea.setBounds(800, 100, 894, 663);						// ventana del mapa 894, 663)
+		frameLinea.setBounds(200, 50, 894, 663);						// ventana del mapa 894, 663)
 		
 		contentPaneMapa = new JPanel();
 		contentPaneMapa.setBorder(new EmptyBorder(5, 5, 5, 5));			// bordes del mapa
@@ -49,8 +49,7 @@ public class Lista {
 			}
 		});
 		
-		btnAtrasMapa = new JButton("Atr\u00E1s");
-		btnAtrasMapa.setBackground(Color.green);
+		btnAtrasMapa = new JButton("Atrás");
 		btnAtrasMapa.setBounds(393, 550, 100, 39);						// boton de atras
 		contentPaneMapa.add(btnAtrasMapa);
 		btnAtrasMapa.addMouseListener(new MouseAdapter() {

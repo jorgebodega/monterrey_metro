@@ -74,7 +74,7 @@ public class Construccion {
 		for(int i=0; i<3 ; i++){
 			for(Map.Entry<String,Estacion> entry : hashMap[i].entrySet()){
 				if(!toReturn.contains(entry.getValue().getNombre()))
-					toReturn.add(entry.getValue().getNombre());
+					toReturn.add("\""+entry.getValue().getNombre()+"\"");
 			}
 		}
 		Collections.sort(toReturn);
@@ -103,4 +103,11 @@ public class Construccion {
 		
 		return hashMap;
 	}
+	/*public static void main(String[] args) {
+		
+		Construccion c = new Construccion();
+		System.out.println(c.estacionesOrdenadas());
+		
+	}*/
+	
 }

@@ -43,24 +43,17 @@ public class Informacion {
 	}
 
 	public void inicialize(){
-		frameInfo.setBounds(100, 100, 680, 380);
+		frameInfo.setBounds(400, 100, 580, 514);
 
 		contentInfo = new JPanel();
 		contentInfo.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentInfo.setLayout(null);
 
 		frameInfo.setContentPane(contentInfo);
-		frameInfo.addWindowListener(new WindowAdapter() {
-			@Override
-			public void windowClosing(WindowEvent arg0) {
-				System.out.println("Hola2");
-				frameInfo.setVisible(false);
-				seleccion.frameSeleccion.setVisible(true);
-			}
-		});
+		
 
-		btnAtrasMapa = new JButton("Atr\u00E1s");
-		btnAtrasMapa.setBackground(new Color(0, 0, 0));
+		btnAtrasMapa = new JButton("Atrás");
+
 		btnAtrasMapa.setBounds(400, 50, 103, 43);
 		contentInfo.add(btnAtrasMapa);
 		btnAtrasMapa.addMouseListener(new MouseAdapter() {
@@ -71,27 +64,32 @@ public class Informacion {
 					seleccion.frameSeleccion.setVisible(true);
 			}
 		});
-
-
-		String isab = "\nHORARIOS \n Todos los dÃ­as \n 05:00 - 00:00 \n\n "
-				+ "TARIFAS \n (en pesos mexicanos)\n 1 viaje - $4.50 \n 2 viajes - $8.50\n"
-				+ " 6 viajes - $24.00 ";
-
-
-		JTextArea jtextarea = new JTextArea();
-		jtextarea.setBounds(50, 65, 200, 230);	
-		jtextarea.setForeground(Color.white); 
-		jtextarea.setText(isab);
-		jtextarea.setFont(new Font("Lucida Calligraphy", Font.BOLD, 17));
-		jtextarea.setEditable(false);
-		jtextarea.setBackground(Color.black);
-		frameInfo.getContentPane().add(jtextarea);
-
-
-
+		
+		
+		String info = "<html><body>HORARIOS <br>  Todos los días <br>  05:00 - 00:00 <br>"
+				+ "<br>TARIFAS <br> 1 viaje - $4.50 <br> 2 viajes - $8.50 <br> 6 viajes - $24.00  </body></html> ";
+		
+		JLabel lblSeleccioneUnOrigen = new JLabel(info);
+		lblSeleccioneUnOrigen.setForeground(Color.white); 
+		lblSeleccioneUnOrigen.setFont(new Font("Arial", Font.BOLD, 20));
+		lblSeleccioneUnOrigen.setHorizontalAlignment(SwingConstants.CENTER);
+		lblSeleccioneUnOrigen.setBounds(150, 60, 350, 350);					// Seleccione un origen y destino
+		frameInfo.getContentPane().add(lblSeleccioneUnOrigen);
+		
 		JLabel ImagenFondo = new JLabel("");
-		ImagenFondo.setIcon(new ImageIcon(Inicio.class.getResource("/resources/images.png")));
-		ImagenFondo.setBounds(280, 80, 320, 240);								// Imagen de Fondo
+		ImagenFondo.setIcon(new ImageIcon(Inicio.class.getResource("/resources/monterrey.jpg")));
+		ImagenFondo.setBounds(0, 0, 980, 514);								// Imagen de Fondo
 		frameInfo.getContentPane().add(ImagenFondo);
+		
+		
+
+		
+		
+		
+
+	
+		
+		
+
 	}
 }

@@ -33,7 +33,8 @@ public class Inicio {
 	private Seleccion seleccion;
 	private Plano plano;
 	private Informacion info;
-	private Trayecto ruta;
+	
+	private Lista lista;
 	private Construccion construccion;
 	private DefaultListModel<String> listaOrigenD;
 	private DefaultListModel<String> listaDestinoD;
@@ -47,14 +48,18 @@ public class Inicio {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
+				
 				try {
 					Inicio window = new Inicio();
 					window.frameSeleccion.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				
 			}
+			
 		});
+		
 	}
 
 	public Inicio() {
@@ -62,6 +67,8 @@ public class Inicio {
 		plano = new Plano(this,servicios);
 		info = new Informacion(this);
 		seleccion = new Seleccion(this,servicios);
+		lista = new Lista(this);
+		//ruta= new Trayecto(this, servicios);
 		
 		initialize();
 	}
@@ -81,7 +88,6 @@ public class Inicio {
 		});
 		
 		buttonMapa.setFont(new Font("Arial", Font.BOLD, 12));
-		//buttonMapa.setBackground(Color.TRANSLUCENT);
 		buttonMapa.setBounds(200, 300, 200, 39);					// boton ver mapa
 		frameSeleccion.getContentPane().add(buttonMapa);
 		
@@ -92,7 +98,8 @@ public class Inicio {
 		buttonLE.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
-				info.frameInfo.setVisible(true);
+				lista.frameLinea.setVisible(true);
+				
 			}
 		});
 		
@@ -119,7 +126,7 @@ public class Inicio {
 		
 		
 		
-		JButton buttonInfo = new JButton("INFORMACI\u00d3N");
+		JButton buttonInfo = new JButton("INFORMACIÓN");
 		buttonInfo.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
