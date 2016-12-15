@@ -189,7 +189,7 @@ public class Trayecto{
 		textArea = new JTextArea();
 		textArea.setBackground(Color.white);
 		textArea.setEditable(false);
-		textArea.setBounds(10, 100, 203, 279);
+		textArea.setBounds(350, 100, 203, 279);
 		contentPaneRuta.add(textArea);
 		textArea.setFont(new Font("ARIAL", Font.CENTER_BASELINE, 12));
 		textArea.setAlignmentX(SwingConstants.CENTER);
@@ -199,7 +199,7 @@ public class Trayecto{
 
 		textArea2 = new JTextArea();
 		textArea2.setEditable(false);
-		textArea2.setBounds(230, 100, 300, 279);
+		textArea2.setBounds(10, 100, 330, 280);
 		contentPaneRuta.add(textArea2);
 		textArea2.setFont(new Font("ARIAL", Font.CENTER_BASELINE, 12));
 		textArea2.setAlignmentX(SwingConstants.CENTER);

@@ -70,9 +70,9 @@ public class Info {
 		JTextArea textArea = new JTextArea();
 		textArea.setEditable(false);
 		textArea.setBounds(180, 150, 220, 250);
-		textArea.setText("\n   HORARIOS \n  Todos los días \n  05:00 - 00:00 \n"
-				+ "\n   TARIFAS \n   1 viaje - $4.50 \n   2 viajes - $8.50 "
-				+ "\n   6 viajes - $24.00  ");
+		textArea.setText("\n   TARIFAS \n   1 viaje - $4.50 \n   2 viajes - $8.50 "
+				+ "\n   6 viajes - $24.00  \n\n"+ 
+				"\n   HORARIOS \n  Todos los días \n  05:00 - 00:00 \n");
 		textArea.setBackground(Color.white);
 		textArea.setForeground(Color.black);
 		contentInfo.add(textArea);
